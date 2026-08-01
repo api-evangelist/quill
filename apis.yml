@@ -1,4 +1,16 @@
 aid: quill
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quill.png
 name: Quill
 description: 'Quill is a company surfaced as a portfolio company of index-ventures and added to the API
   Evangelist network as a stub for enrichment. Sector: business-applications. This profile is a lead awaiting
@@ -25,3 +37,12 @@ maintainers:
 common:
 - type: Website
   url: http://quill.chat
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'quill.chat does not resolve to a live web surface (no DNS A record; CSC-parked
+    domain). No developer docs, OpenAPI, or API surface found. Domain-security and
+    security-program probes ran and returned no records (unreachable). No artifacts
+    to add without fabrication.'
